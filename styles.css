@@ -1,0 +1,153 @@
+@import url('https://fonts.googleapis.com/css2?family=Spartan:wght@500;700&display=swap');
+
+:root {
+    /* -- colors -- */
+    --dark-cyan-bg: #afebf3;
+    --light-grayish: #EFFAFA;
+    --grayish-tablets: #EEF6F6;
+    --dark-cyan: #5da5a4;
+    --very-dark-cyan: #2C3A3A;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    max-width: 1440px;
+    font-family: 'Spartan', sans-serif;
+    font-size: 15px;
+    background-color: var(--light-grayish);
+}
+
+header {
+    background-color: var(--dark-cyan-bg);
+}
+
+.container {
+    width: 100%;
+    
+}
+
+.filter-box {
+    position: absolute;
+    top: 18%;
+    left: 15%;
+    width: 70%;
+    height: 70px;
+    background-color: lightslategray;
+    margin: 20px auto;
+    border-radius: 7px;
+    display: block;
+    box-shadow: 0 6px 10px 0px hsl(180, 17%, 85%);
+}
+
+.filter-selection {
+    align-content: center;
+}
+
+
+.card {
+    width: 70%;
+    height: 120px;
+    /*background-color: lightsalmon;*/
+    margin: 30px auto;
+    border-radius: 7px;
+    display: flex;
+    background-color: white;
+    box-shadow: 0 12px 20px 0px hsl(180, 17%, 85%);
+    /*justify-content: space-between;*/
+}
+
+#card1 {
+    margin-top: 80px;
+}
+
+.logo {
+    width: 120px;
+    height: 120px;
+}
+
+.logo img {
+    padding: 15px 30px;
+    /*background-color: lightslategray;*/
+}
+
+.info-job {
+    /*background-color: limegreen;*/
+    padding: 20px 40px 20px 20px;
+    line-height: 1.75em;
+    width: 35%;
+}
+
+.company-name {
+    font-size: 14px;
+    color: var(--dark-cyan);
+}
+
+.position-name {
+    font-size: 16px;
+    color: var(--dark-cyan);
+}
+
+.position-name:hover {
+    color: var(--very-dark-cyan);
+}
+
+.list-info {
+    font-size: 10px;
+    display: flex;
+}
+
+.list-info li {
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.list-info li:hover {
+    color: var(--very-dark-cyan);
+}
+
+.first-bullet {
+    list-style: none;
+    padding-left: 0px !important;
+}
+
+.categories {
+    text-align: center;
+    /*background-color: brown;*/
+    max-width: 400px;
+    padding: 45px 0px;
+    justify-content: flex-end;
+    width: 50%;
+}
+
+button {
+    color: var(--dark-cyan);
+    font-weight: 700;
+    font-size: 13px;
+    background: var(--grayish-tablets);
+    display: inline-block;
+    padding: 7px 7px 5px;
+    border-radius: 4px;
+    margin: 5px 8px;
+    border: none;
+    outline: none;
+}
+
+button:hover {
+    color: var(--light-grayish);
+    background-color: var(--dark-cyan);
+    cursor: pointer;
+}
+
+.categories-btns {
+    text-align: right;
+
+}
+
+.clear {
+    float: right;
+    margin-right: 20px;
+}
